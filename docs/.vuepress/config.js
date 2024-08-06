@@ -2,6 +2,7 @@ module.exports = {
   title: 'PeiQi文库',
   theme: 'antdocs',
   description: '面向网络安全从业者的知识文库',
+  base: "/PeiQi/",
   // 注入到当前页面的 HTML <head> 中的标签
   head: [
     ['link', { rel: 'icon', href: '/img/home.svg' }], // 增加一个自定义的 favicon(网页标签的图标)
@@ -33,7 +34,7 @@ module.exports = {
     sidebarDepth: 0,
     lastUpdated: '上次更新',
     logo: '/img/home.svg',
-    repo: 'https://github.com/PeiQi0/PeiQi-WIKI-Book',
+    repo: 'https://github.com/kukuqi666/PeiQi',
     editLinks: true,
     ads:{
       style: 3, 
